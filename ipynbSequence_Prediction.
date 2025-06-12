@@ -8,6 +8,21 @@
     "       Incremental Sequence Prediction using RNN Variants: RNN vs LSTM vs GRU"
    ]
   },
+ {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "d78bcc47-7801-4f02-890b-3e622e7fe0f6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import SimpleRNN, LSTM, GRU, Dense, TimeDistributed, RepeatVector
+import matplotlib.pyplot as plt"
+
+   ]
+  },
   {
    "cell_type": "code",
    "execution_count": 2,
